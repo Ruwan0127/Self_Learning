@@ -34,3 +34,20 @@ https://www.credly.com/badges/149c0603-42d2-4f62-937e-eb966a91817a/public_url
   ### Netcat
 
   ### Nmap
+
+
+
+## - Skills
+
+* Introduction to Cybersecurity
+
+<img src="https://github.com/user-attachments/assets/d1671b70-a422-4c33-b563-67dfdae6c4d6" alt="Introduction to Cybersecurity Badge" style="width:200px;height:200px;"> 
+
+
+  - Module 1: Introduction to Cybersecurity
+  - Module 2: Attacks, Concepts and Techniques
+  - Module 3: Protecting your Data and Privacy
+  - Module 4: Protecting the Organization
+  - Module 5: Will Your Future Be in Cybersecurity?
+
+https://www.credly.com/badges/e571a27e-9a05-4b5d-9978-00546b71771f
