@@ -50,4 +50,30 @@ https://www.credly.com/badges/149c0603-42d2-4f62-937e-eb966a91817a/public_url
   - Module 4: Protecting the Organization
   - Module 5: Will Your Future Be in Cybersecurity?
 
-https://www.credly.com/badges/e571a27e-9a05-4b5d-9978-00546b71771f
+[https://www.credly.com/badges/e571a27e-9a05-4b5d-9978-00546b71771f](https://www.credly.com/badges/e571a27e-9a05-4b5d-9978-00546b71771f/public_url)
+
+
+* CCNAv7: Introduction to Networks
+
+    - Module 1: Networking Today
+    - Module 2: Basic Switch and End Device Configuration
+    - Module 3: Protocols and Models
+    - Module 4: Physical Layer
+    - Module 5: Number Systems
+    - Module 6: Data Link Layer
+    - Module 7: Ethernet Switching
+    - Module 8: Network Layer
+    - Module 9: Address Resolution
+    - Module 10: Basic Router Configuration
+    - Module 11: IPv4 Addressing
+    - Module 12: IPv6 Addressing
+    - Module 13: ICMP
+    - Module 14: Transport Layer
+    - Module 15: Application Layer
+    - Module 16: Network Security Fundamentals
+    - Module 17: Build a Small Network
+
+  ![image](https://github.com/user-attachments/assets/2e685d98-f4a8-43ad-aac9-287350276426)
+
+
+
