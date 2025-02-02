@@ -14,17 +14,6 @@ After installation, I can run Nmap in two ways:
 - **Using Command Prompt (cmd)**
 - **Using Zenmap (GUI for Nmap)**
 
-### Running Nmap in Command Prompt
-
-1. Open **Command Prompt** (Win + R, type `cmd`, and press Enter).
-2. Navigate to the Nmap directory (if not added to PATH):
-   
-  "C:\Program Files (x86)\Nmap"
-
-4. Run a basic Nmap scan to check if it's working:
-  
-   nmap -v scanme.nmap.org
-   
 
 ### Using Zenmap (GUI)
 
@@ -33,12 +22,15 @@ After installation, I can run Nmap in two ways:
 3. Choose a scan type (e.g., **Intense Scan**).
 4. Click **Scan** to start.
 
+
 ## 3. Common Nmap Commands I Use
 
 ### Scanning TCP/UDP ports with Nmap on windows
 
 
--  Network Mapping
+
+
+-  **Network Mapping**
 
 `nmap -T4 -A -v 127.0.0.1`
   
@@ -47,7 +39,7 @@ To check the devices present on a network including all the routers, servers, an
 ![image](https://github.com/user-attachments/assets/86013742-eac5-4eab-8bf4-108c8a7f3f85)
 
 
-- Scanning all ports
+- **Scanning all ports**
 
   `nmap -p- 127.0.0.1`
 
@@ -77,6 +69,8 @@ Port ranges are categorized into three main groups based on their usage and allo
    - When a client application connects to a server, it typically uses an ephemeral port assigned dynamically from this range.  
    - Example:  
      - When you visit a website, your browser might use a random port from this range for the outgoing request.
+ 
 
+   - **** 
 
 
