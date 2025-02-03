@@ -14,36 +14,59 @@ After installation, I can run Nmap in two ways:
 - **Using Command Prompt (cmd)**
 - **Using Zenmap (GUI for Nmap)**
 
-
-### Using Zenmap (GUI)
-
-1. Open **Zenmap** from the Start menu.
-2. Enter a target (e.g., `scanme.nmap.org`).
-3. Choose a scan type (e.g., **Intense Scan**).
-4. Click **Scan** to start.
+Always should run this as an administrator. 
 
 
 ## 3. Common Nmap Commands I Use
 
+Host IP : 192.168.101.120
+Default Gateway : 192.168.101.1
+Target IP : 192.168.101.124 (firwall is turned off)
+
+
+### Identified the devices connected to the wifi adapter 
+
+  `nmap -T4 -F 192.168.101.0/24`
+
+  ![image](https://github.com/user-attachments/assets/f994131e-0246-4314-8cb9-3770db809da2)
+
+
+### Ping from host to target
+
+  ![image](https://github.com/user-attachments/assets/0223f4e7-7fd3-4fbd-b1cc-3fd097137248)
+
+
+### Quick scan of the target IP
+
+  `nmap -T4 -F 192.168.101.124`
+
+  ![image](https://github.com/user-attachments/assets/b98832e1-8bb8-4931-b5ed-da95aa57a654)
+
+
+
 ### Scanning TCP/UDP ports with Nmap on windows
-
-
-
 
 -  **Network Mapping**
 
-`nmap -T4 -A -v 127.0.0.1`
+  `nmap -T4 -A -v 192.168.101.124`
   
-To check the devices present on a network including all the routers, servers, and switches, and to verify how they are connected physically.
+  To check the devices present on a network including all the routers, servers, and switches, and to verify how they are connected physically.
    
-![image](https://github.com/user-attachments/assets/86013742-eac5-4eab-8bf4-108c8a7f3f85)
+
+  ![image](https://github.com/user-attachments/assets/1433778e-d2bf-4c0a-be83-c5112828aa1f)
+
+
+
+
+  ![image](https://github.com/user-attachments/assets/ba3b7d53-9fd3-4f63-be56-cdd2cbcf9e22)
+
 
 
 - **Scanning all ports**
 
-  `nmap -p- 127.0.0.1`
+  `nmap -p- 192.168.101.124`
 
-![image](https://github.com/user-attachments/assets/1fa35674-0a84-47a6-b882-50ef2ab4a78f)
+  ![image](https://github.com/user-attachments/assets/da3041d9-ee2a-41b4-ba9f-9937bbf2f238)
 
 
 Port ranges are categorized into three main groups based on their usage and allocation:
