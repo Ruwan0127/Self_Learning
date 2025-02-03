@@ -24,11 +24,23 @@ Default Gateway : 192.168.101.1
 Target IP : 192.168.101.124 (firwall is turned off)
 
 
-### Identified the devices connected to the wifi adapter 
+### Identified the devices connected to the wifi adapter (Default Gateway)
 
   `nmap -T4 -F 192.168.101.0/24`
 
-  ![image](https://github.com/user-attachments/assets/f994131e-0246-4314-8cb9-3770db809da2)
+ ![image](https://github.com/user-attachments/assets/3892cb28-f67d-4202-b32f-2d09936524b6)
+
+
+ ![image](https://github.com/user-attachments/assets/8c93bcdf-f5d0-48e8-a8a0-e6976cdfd73e)
+
+
+
+ ![image](https://github.com/user-attachments/assets/af6a78e9-2e1f-483c-9610-8275d2c2d151)
+
+
+
+
+  
 
 
 ### Ping from host to target
@@ -130,8 +142,9 @@ Target IP : 192.168.101.124 (firwall is turned off)
 
     `nmap -sU -p 1-500 192.168.101.124`
 
-  - In Nmap when we scan ports, TCP is scanned per default. In order to scan UDP ports, we have to specify the UDP scan in the statement. We can use -sU for scanning UDP ports.^:
+  - In Nmap when we scan ports, TCP is scanned per default. In order to scan UDP ports, we have to specify the UDP scan in the statement. We can use -sU for scanning UDP ports:
 
+    ![image](https://github.com/user-attachments/assets/f8587759-1dd0-41b1-8295-a1ef4ac04a32)
 
   
 
@@ -142,6 +155,7 @@ Target IP : 192.168.101.124 (firwall is turned off)
     
   - Scanning UDP without range is similar to scanning TCP without range. Use the same -p- option to scan UDP ports without specifying a range:
 
+    ![image](https://github.com/user-attachments/assets/0b2e2e59-e5e0-493d-b6b2-5f129d0af1f7)
 
 
 
@@ -151,3 +165,4 @@ Target IP : 192.168.101.124 (firwall is turned off)
 
   - We can also scan both TCP/UDP by using a single statement. We have to use -sU for UDP ports and TCP ports we’ll use the -sT option:
 
+    ![image](https://github.com/user-attachments/assets/60098af1-354e-4103-a189-6ec4e8bc0273)
