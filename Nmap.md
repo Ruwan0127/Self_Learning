@@ -69,31 +69,7 @@ Target IP : 192.168.101.124 (firwall is turned off)
   ![image](https://github.com/user-attachments/assets/da3041d9-ee2a-41b4-ba9f-9937bbf2f238)
 
 
-
-- **Scanning specific TCP ports within a range**
-
-    `nmap -p1-500 192.168.101.124`
-   
-  - In Nmap, we can specify the port range by using the “-p” option. If we want to scan all TCP ports, then we can use -p1-10 option:
-
-
-      ![image](https://github.com/user-attachments/assets/f45f2ea6-8ff6-46da-90db-fab092de1ea9)
-
-
-
-- **Faster Scan option**
-
-        `nmap -p- -T5 192.168.101.124`
-
-  - We can use -T5 parameter for the quickest level scan of Nmap. The regular scan will consume a lot of time, whereas a fast scan option will do it in less time.
-
-
-      ![image](https://github.com/user-attachments/assets/79cf1a84-ecd6-412b-81ef-ffbad5fa3ef7)
-
-
-      
-
-    Port ranges are categorized into three main groups based on their usage and allocation:
+Port ranges are categorized into three main groups based on their usage and allocation:
 
     1. **Well-Known Ports (0-1023)**  
        - These are assigned by the **Internet Assigned Numbers Authority (IANA)** for common services and protocols.  
@@ -116,4 +92,62 @@ Target IP : 192.168.101.124 (firwall is turned off)
        - When a client application connects to a server, it typically uses an ephemeral port assigned dynamically from this range.  
        - Example:  
          - When you visit a website, your browser might use a random port from this range for the outgoing request.
+
+
+
+- **Scanning specific TCP ports within a range**
+
+    `nmap -p1-500 192.168.101.124`
+   
+  - In Nmap, we can specify the port range by using the “-p” option. If we want to scan all TCP ports, then we can use -p1-10 option:
+
+
+      ![image](https://github.com/user-attachments/assets/f45f2ea6-8ff6-46da-90db-fab092de1ea9)
+
+
+
+- **Faster Scan option**
+
+        `nmap -p- -T5 192.168.101.124`
+
+  - We can use -T5 parameter for the quickest level scan of Nmap. The regular scan will consume a lot of time, whereas a fast scan option will do it in less time.
+
+
+      ![image](https://github.com/user-attachments/assets/79cf1a84-ecd6-412b-81ef-ffbad5fa3ef7)
+
+
+- ***Scanning TCP ports without a range***
+
+      `nmap 192.168.101.124 `
+    
+  - There is another way of scanning TCP ports without specifying the range of ports. It will scan for the common 1000 ports:
+
+      ![image](https://github.com/user-attachments/assets/e2e1c8f0-ed03-4753-86dc-39bb7f26e137)
+
+  
+
+- ***Scanning UDP ports within a range***
+
+    `nmap -sU -p 1-500 192.168.101.124`
+
+  - In Nmap when you scan ports, TCP is scanned per default. In order to scan UDP ports, you have to specify the UDP scan in the statement. You can use -sU for scanning UDP ports.^:
+
+
+  
+
+
+- ***Scanning all UDP ports***
+
+    `nmap -sU -p - -T5 192.168.101.124`
+    
+  - Scanning UDP without range is similar to scanning TCP without range. You use the same -p- option to scan UDP ports without specifying a range:
+
+
+
+
+- ***Scanning TCP/UDP at once within a specific range***
+
+    `nmap -sT -sU -p 1-500 192.168.101.124`
+
+  - You can also scan both TCP/UDP by using a single statement. You have to use -sU for UDP ports and TCP ports you’ll use the -sT option:
 
