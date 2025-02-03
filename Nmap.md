@@ -130,7 +130,7 @@ Target IP : 192.168.101.124 (firwall is turned off)
 
     `nmap -sU -p 1-500 192.168.101.124`
 
-  - In Nmap when you scan ports, TCP is scanned per default. In order to scan UDP ports, you have to specify the UDP scan in the statement. You can use -sU for scanning UDP ports.^:
+  - In Nmap when we scan ports, TCP is scanned per default. In order to scan UDP ports, we have to specify the UDP scan in the statement. We can use -sU for scanning UDP ports.^:
 
 
   
@@ -140,7 +140,7 @@ Target IP : 192.168.101.124 (firwall is turned off)
 
     `nmap -sU -p - -T5 192.168.101.124`
     
-  - Scanning UDP without range is similar to scanning TCP without range. You use the same -p- option to scan UDP ports without specifying a range:
+  - Scanning UDP without range is similar to scanning TCP without range. Use the same -p- option to scan UDP ports without specifying a range:
 
 
 
@@ -149,5 +149,5 @@ Target IP : 192.168.101.124 (firwall is turned off)
 
     `nmap -sT -sU -p 1-500 192.168.101.124`
 
-  - You can also scan both TCP/UDP by using a single statement. You have to use -sU for UDP ports and TCP ports you’ll use the -sT option:
+  - We can also scan both TCP/UDP by using a single statement. We have to use -sU for UDP ports and TCP ports we’ll use the -sT option:
 
