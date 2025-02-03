@@ -69,31 +69,50 @@ Target IP : 192.168.101.124 (firwall is turned off)
   ![image](https://github.com/user-attachments/assets/da3041d9-ee2a-41b4-ba9f-9937bbf2f238)
 
 
-Port ranges are categorized into three main groups based on their usage and allocation:
+    Port ranges are categorized into three main groups based on their usage and allocation:
 
-1. **Well-Known Ports (0-1023)**  
-   - These are assigned by the **Internet Assigned Numbers Authority (IANA)** for common services and protocols.  
-   - Examples:
+    1. **Well-Known Ports (0-1023)**  
+       - These are assigned by the **Internet Assigned Numbers Authority (IANA)** for common services and protocols.  
+       - Examples:
      - **HTTP** (Port 80)
      - **HTTPS** (Port 443)
      - **FTP** (Port 21)
      - **SSH** (Port 22)
      - **SMTP** (Port 25)
 
-2. **Registered Ports (1024-49151)**  
-   - These ports are registered by IANA for specific applications and services but are not as universally reserved as well-known ports.  
-   - Examples:
+    2. **Registered Ports (1024-49151)**  
+       - These ports are registered by IANA for specific applications and services but are not as universally reserved as well-known ports.  
+       - Examples:
      - **MySQL** (Port 3306)
      - **PostgreSQL** (Port 5432)
      - **Docker** (Port 2375)
 
-3. **Dynamic or Private Ports (49152-65535)**  
-   - These are usually used for **temporary or ephemeral connections**.  
-   - When a client application connects to a server, it typically uses an ephemeral port assigned dynamically from this range.  
-   - Example:  
-     - When you visit a website, your browser might use a random port from this range for the outgoing request.
+    3. **Dynamic or Private Ports (49152-65535)**  
+       - These are usually used for **temporary or ephemeral connections**.  
+       - When a client application connects to a server, it typically uses an ephemeral port assigned dynamically from this range.  
+       - Example:  
+         - When you visit a website, your browser might use a random port from this range for the outgoing request.
  
 
+
+    -***Scanning specific TCP ports within a range***
+   
+      - In Nmap, we can specify the port range by using the “-p” option. If we want to scan all TCP ports, then we can use -p1-10 option:
+
+      `nmap -p1-500 192.168.101.124`
+
+      ![image](https://github.com/user-attachments/assets/f45f2ea6-8ff6-46da-90db-fab092de1ea9)
+
+
+    -***Faster Scan option***
+
+      - WE can use -T5 parameter for the quickest level scan of Nmap. The regular scan will consume a lot of time, whereas a fast scan option will do it in less time.
+
+      `nmap -p- -T5 192.168.101.124`
+
+      ![image](https://github.com/user-attachments/assets/79cf1a84-ecd6-412b-81ef-ffbad5fa3ef7)
+
+    
    - **** 
 
 
