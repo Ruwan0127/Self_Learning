@@ -95,20 +95,22 @@ Target IP : 192.168.101.124 (firwall is turned off)
  
 
 
+
     -***Scanning specific TCP ports within a range***
    
       - In Nmap, we can specify the port range by using the “-p” option. If we want to scan all TCP ports, then we can use -p1-10 option:
 
-      `nmap -p1-500 192.168.101.124`
+      nmap -p1-500 192.168.101.124
 
       ![image](https://github.com/user-attachments/assets/f45f2ea6-8ff6-46da-90db-fab092de1ea9)
+
 
 
     -***Faster Scan option***
 
       - WE can use -T5 parameter for the quickest level scan of Nmap. The regular scan will consume a lot of time, whereas a fast scan option will do it in less time.
 
-      `nmap -p- -T5 192.168.101.124`
+      nmap -p- -T5 192.168.101.124
 
       ![image](https://github.com/user-attachments/assets/79cf1a84-ecd6-412b-81ef-ffbad5fa3ef7)
 
