@@ -69,9 +69,9 @@ Target IP : 192.168.101.124 (firwall is turned off)
   ![image](https://github.com/user-attachments/assets/da3041d9-ee2a-41b4-ba9f-9937bbf2f238)
 
 
-Port ranges are categorized into three main groups based on their usage and allocation:
+### Port ranges are categorized into three main groups based on their usage and allocation:
 
-    1. **Well-Known Ports (0-1023)**  
+  1. **Well-Known Ports (0-1023)**  
        - These are assigned by the **Internet Assigned Numbers Authority (IANA)** for common services and protocols.  
        - Examples:
      - **HTTP** (Port 80)
@@ -80,14 +80,14 @@ Port ranges are categorized into three main groups based on their usage and allo
      - **SSH** (Port 22)
      - **SMTP** (Port 25)
 
-    2. **Registered Ports (1024-49151)**  
+  2. **Registered Ports (1024-49151)**  
        - These ports are registered by IANA for specific applications and services but are not as universally reserved as well-known ports.  
        - Examples:
      - **MySQL** (Port 3306)
      - **PostgreSQL** (Port 5432)
      - **Docker** (Port 2375)
 
-    3. **Dynamic or Private Ports (49152-65535)**  
+  3. **Dynamic or Private Ports (49152-65535)**  
        - These are usually used for **temporary or ephemeral connections**.  
        - When a client application connects to a server, it typically uses an ephemeral port assigned dynamically from this range.  
        - Example:  
