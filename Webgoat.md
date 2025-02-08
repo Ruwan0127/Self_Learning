@@ -36,6 +36,12 @@
 ## Day 2: Understanding SQL Injection
 
 - Completed SQL Injection challenge.
+
+  ![image](https://github.com/user-attachments/assets/07b01110-24df-4a6e-8fbe-ab3e472fb66e)
+
+  ![image](https://github.com/user-attachments/assets/ba541046-e043-4f6d-b8dd-3c6d87f4f7f2)
+
+  
 - Learned about SQL injection vulnerabilities.
 - Experimented with different SQL commands.
 
