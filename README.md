@@ -1,8 +1,15 @@
-# Self_Learning
+
+
+
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=31&duration=4500&pause=1000&color=164B63&multiline=true&width=453&height=100&lines=Self_Learning)](https://git.io/typing-svg)   
 This shows my self learning diary.
 
 
+
+
 ## - Languages
+
 
 ### Pyton
 
@@ -33,7 +40,9 @@ https://www.credly.com/badges/149c0603-42d2-4f62-937e-eb966a91817a/public_url
 
   ### Netcat
 
-  ### Nmap
+  ### Nmap:
+
+  ### Webgoat 
 
 
 
