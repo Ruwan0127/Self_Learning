@@ -45,12 +45,13 @@
 - Learned about SQL injection vulnerabilities.
 - Experimented with different SQL commands.
 
-## Day 3: Cross-Site Scripting (XSS)
-- Completed XSS challenge.
-- Observed how malicious scripts can run in browsers.
-- Tested with different payloads.
+## To do
+  ### Cross-Site Scripting (XSS)
+  - Complete XSS challenge.
+  - Observe how malicious scripts can run in browsers.
+  - Test with different payloads.
 
-## Day 4: CSRF Attacks
-- Worked through the CSRF module.
-- Learned how attackers exploit vulnerabilities in web applications.
-- Examined examples of how to protect against CSRF.
+  ### CSRF Attacks
+  - Work through the CSRF module.
+  - Learn how attackers exploit vulnerabilities in web applications.
+  - Examine examples of how to protect against CSRF.
