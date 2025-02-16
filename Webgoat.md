@@ -51,6 +51,12 @@
   - Observe how malicious scripts can run in browsers.
   - Test with different payloads.
 
+
+
+
+### Reference
+
+1. https://github.com/WebGoat
   ### CSRF Attacks
   - Work through the CSRF module.
   - Learn how attackers exploit vulnerabilities in web applications.
