@@ -2,7 +2,7 @@
 
 ## Day 1: Setting Up WebGoat
 
-- Installed WebGoa.ova in virtual box
+- Installed WebGoat.ova in virtual box
   
 - Attach the network to host only adapter
   
